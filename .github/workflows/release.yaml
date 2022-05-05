@@ -25,7 +25,7 @@ jobs:
       - name: Linting
         run: yarn lint
 
-      - name: Linting
+      - name: Build
         run: yarn build
 
       - name: Create release
