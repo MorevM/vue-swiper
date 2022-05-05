@@ -140,7 +140,7 @@
 		"postcss-discard-comments": "^4.0.2",
 		"postcss-discard-duplicates": "^4.0.2",
 		"recursive-copy": "^2.0.14",
-		"release-it": "^14.14.2",
+		"release-it": "^14.14.3",
 		"sass": "^1.51.0",
 		"sass-loader": "^10.1.1",
 		"stylelint": "^14.8.0",
