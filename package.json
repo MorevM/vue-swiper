@@ -119,7 +119,8 @@
 		"lint:eslint": "eslint \"**/*.{js,json,json5,jsonc,yml,yaml,md}\"",
 		"lint:eslint:fix": "eslint \"**/*.{js,json,json5,jsonc,yml,yaml,md}\" --fix",
 		"lint:stylelint": "stylelint \"**/*.{css,scss}\" --allow-empty-input",
-		"lint:stylelint:fix": "stylelint \"**/*.{css,scss}\" --fix --allow-empty-input"
+		"lint:stylelint:fix": "stylelint \"**/*.{css,scss}\" --fix --allow-empty-input",
+		"test": "echo TODO;"
 	},
 	"dependencies": {
 		"@morev/helpers": "^0.16.0",
