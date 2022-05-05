@@ -1,0 +1,17 @@
+@use 'more-sass' as *;
+@use '~styles/utility/variables.scss' as *;
+
+.base-section {
+	$b: #{&};
+
+	flex: 0 0 auto;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+
+	&__wrapper {
+		@include margin(null auto);
+		flex: 0 0 auto;
+	}
+}

@@ -1,0 +1,8 @@
+# Blacklist of dev/artifacts directories
+dist
+build
+.nuxt
+tmp
+node_modules
+
+.more-sass

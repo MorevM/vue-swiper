@@ -1,0 +1,7 @@
+.swiper-root { position: relative; }
+.swiper { width: 100%; }
+
+.swiper-root:not(.swiper-initialized) .swiper-slide-duplicate {
+	position: absolute;
+	left: -99999px;
+}
