@@ -17,12 +17,16 @@ jobs:
           node-version: '16'
           cache: yarn
           scope: '@morev'
+          registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
         run: yarn install
 
       - name: Linting
         run: yarn lint
+
+      - name: Linting
+        run: yarn build
 
       - name: Create release
         uses: softprops/action-gh-release@v1
@@ -32,4 +36,4 @@ jobs:
       - name: Publish package
         run: yarn publish
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
