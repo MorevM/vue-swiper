@@ -2,14 +2,10 @@ version: 2
 updates:
   - package-ecosystem: npm
     directory: '/'
-    schedule:
-      interval: daily
-    allow:
-      - dependency-type: direct
-    assignees:
-      - MorevM
-    commit-message:
-      prefix: chore
+    schedule: { interval: weekly, day: saturday }
+    versioning-strategy: increase
+    allow: [dependency-type: direct]
+    assignees: [MorevM]
+    commit-message: { prefix: chore }
     labels: [dependencies]
-    reviewers:
-      - MorevM
+    open-pull-requests-limit: 30
