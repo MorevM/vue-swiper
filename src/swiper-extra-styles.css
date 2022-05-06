@@ -1,4 +1,4 @@
-.swiper-root { position: relative; }
+.swiper-root { position: relative; min-width: 0; }
 .swiper { width: 100%; }
 
 .swiper-root:not(.swiper-initialized) .swiper-slide-duplicate {
