@@ -124,7 +124,7 @@
 	},
 	"dependencies": {
 		"@morev/helpers": "^0.16.0",
-		"swiper": "^8.1.4"
+		"swiper": "^8.2.2"
 	},
 	"devDependencies": {
 		"@morev/commitlint-config": "^0.1.0",
