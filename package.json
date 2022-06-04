@@ -142,7 +142,7 @@
 		"postcss-discard-duplicates": "^4.0.2",
 		"recursive-copy": "^2.0.14",
 		"release-it": "^15.0.0",
-		"sass": "^1.51.0",
+		"sass": "^1.52.2",
 		"sass-loader": "^10.1.1",
 		"stylelint": "^14.8.2",
 		"vue": "^2.6.14"
