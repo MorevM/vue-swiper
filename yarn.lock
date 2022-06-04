@@ -1308,10 +1308,10 @@
     vue-eslint-parser "^8.1.0"
     yaml-eslint-parser "^0.5.0"
 
-"@morev/helpers@^0.16.0":
-  version "0.16.0"
-  resolved "https://registry.yarnpkg.com/@morev/helpers/-/helpers-0.16.0.tgz#39014a59086785315b2e4ae13e3ddb65adf05e8a"
-  integrity sha512-oAJGrL8FmxrfyjTTuHcx4B4mBvlAIqIy/YTtcsRVncVl47ahiTbFw00Xg92MRb62JTlNu4i2NY2/e+UUfveCdg==
+"@morev/helpers@^0.19.2":
+  version "0.19.2"
+  resolved "https://registry.yarnpkg.com/@morev/helpers/-/helpers-0.19.2.tgz#e8a5d31ca641ef4534d298379efb44f8503e9ae3"
+  integrity sha512-uEeNAYpP8Zzaa6JSbdqAK5CrFvW8nlc8Jk5xq6z9N4cVGZ8rl5ectxNl9+wPp/yNjbQoiaZT9A3oH9HBU7KYJQ==
 
 "@morev/stylelint-config@^1.0.2":
   version "1.0.3"
