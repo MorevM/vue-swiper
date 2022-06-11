@@ -1,5 +1,13 @@
 
 
+### [0.0.3](https://github.com/MorevM/vue-swiper/compare/v0.0.2...v0.0.3) (2022-06-11)
+
+
+### Chores
+
+* bump eslint from 8.14.0 to 8.15.0 ([#7](https://github.com/MorevM/vue-swiper/issues/7)) ([e4e00be](https://github.com/MorevM/vue-swiper/commit/e4e00bec4db91b3e27e072ad6f2553aa8c0153b0))
+* Minor deps update ([1f5e5ec](https://github.com/MorevM/vue-swiper/commit/1f5e5ecd5e6321aa6ce443692622e7f516672491))
+
 ### [0.0.2](https://github.com/MorevM/vue-swiper/compare/v0.0.1...v0.0.2) (2022-05-06)
 
 
