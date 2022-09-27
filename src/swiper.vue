@@ -148,6 +148,7 @@
 			scrollbarWrap: { type: Boolean, default: false },
 			scrollbarOutside: { type: Boolean, default: false },
 
+			childrenKey: { type: Function, default: undefined },
 		},
 		emits: [
 			'_beforeBreakpoint',
@@ -250,6 +251,7 @@
 			containerClasses: 'swiper',
 
 			virtualData: null,
+			prevChildrenKey: null,
 		}),
 		computed: {
 			cleanSlides() {
@@ -535,6 +537,14 @@
 				this.oldSlides,
 			);
 			this.oldPassedParams = newPassedParams;
+
+			if (this.childrenKey && isFunction(this.childrenKey)) {
+				const key = this.childrenKey(this.prevChildrenKey);
+				if (key) {
+					this.prevChildrenKey = key;
+					changedParams.push('children');
+				}
+			}
 
 			if (changedParams.includes('children')) {
 				this.oldSlides = [...this.slides];

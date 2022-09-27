@@ -5,18 +5,16 @@
 			class="swiper-test"
 			v-bind="cOptions"
 			lazy-init
+			:children-key="childrenKey"
 		>
 			<swiper-slide
-				v-for="item in items"
-				:key="item"
+				v-for="item in cItems"
+				:key="item.label"
 				@click="isDisabled = !isDisabled"
-				#default="slideData"
 			>
-				<button type="button" @click="$set(clicked, item, true)">
-					{{ clicked[item] ? 'Was clicked' : 'Not clicked' }}
-				</button><br />
+				<button type="button" @click="activeItem = item.label">Set active</button><br />
 				{{ item }}<br />
-				{{ slideData }}
+				<!-- {{ slideData }} -->
 			</swiper-slide>
 
 			<!-- <template #navigation>
@@ -70,11 +68,16 @@
 		data: (vm) => ({
 			isDisabled: false,
 			clicked: {},
-			// items: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20],
+			activeItem: 1,
 			items: [1, 2, 3, 4, 5, 6],
-			// items: [0, 1, 2],
 		}),
 		computed: {
+			cItems() {
+				return this.items.map(i => ({
+					active: i === this.activeItem,
+					label: i,
+				}))
+			},
 			cOptions() {
 				return {
 					slidesPerView: 2,
@@ -110,7 +113,12 @@
 				};
 			},
 		},
-		methods: {},
+		methods: {
+			childrenKey(oldKey) {
+				const key = this.items.map(i => (i === this.activeItem).toString()).join('');
+				return (oldKey === key) ? false : key;
+			}
+		},
 		mounted() {
 			console.log('test mounted');
 		},
