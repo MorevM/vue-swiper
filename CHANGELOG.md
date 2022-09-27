@@ -1,5 +1,18 @@
 
 
+## [0.1.0](https://github.com/MorevM/vue-swiper/compare/v0.0.3...v0.1.0) (2022-09-27)
+
+
+### Features
+
+* Add `childrenKey` prop to allow updating slide content ([dc15d23](https://github.com/MorevM/vue-swiper/commit/dc15d23bf80aee2a2e7d941bd6d4c5f7fa8e10b2))
+
+
+### Chores
+
+* bump swiper from 8.1.4 to 8.4.2 ([3e26788](https://github.com/MorevM/vue-swiper/commit/3e26788f4709963a9daa23aa0a51d5ae230a6225))
+* Upgrade non-major devDeps ([e9b354f](https://github.com/MorevM/vue-swiper/commit/e9b354f43a66c90faf14fda3431fb0c172a7a9f5))
+
 ### [0.0.3](https://github.com/MorevM/vue-swiper/compare/v0.0.2...v0.0.3) (2022-06-11)
 
 
