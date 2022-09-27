@@ -39,6 +39,10 @@
 		color: #ffffff;
 		border: 5px solid transparent;
 
+		@at-root #autoheight & {
+			height: auto;
+		}
+
 		&.style-color-one {
 			background-color: #0a96cd;
 			border-color: shade(#0a96cd, 20%);
@@ -75,10 +79,6 @@
 
 		:last-child {
 			margin-bottom: 0;
-		}
-
-		@at-root #autoheight & {
-			height: auto;
 		}
 	}
 
