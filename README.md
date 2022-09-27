@@ -7,7 +7,7 @@
 ![GitHub Release Date](https://img.shields.io/github/release-date/morevm/vue-swiper)
 ![Keywords](https://img.shields.io/github/package-json/keywords/morevm/vue-swiper)
 
-Wrapper under latest [Swiper](https://swiperjs.com/) (8.1.4) with extra features working with Vue 2. \
+Wrapper under latest [Swiper](https://swiperjs.com/) (8.4.2) with extra features working with Vue 2. \
 SSR / Nuxt friendly.
 
 Most of part API is compatible with original [Swiper Vue](https://swiperjs.com/vue) component, so see the provided link for base docs.
