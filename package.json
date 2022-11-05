@@ -144,7 +144,7 @@
 		"release-it": "^15.4.2",
 		"sass": "^1.55.0",
 		"sass-loader": "^10.1.1",
-		"stylelint": "^14.12.1",
+		"stylelint": "^14.14.1",
 		"vue": "^2.6.14"
 	}
 }
