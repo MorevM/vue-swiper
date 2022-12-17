@@ -1292,18 +1292,18 @@
   resolved "https://registry.yarnpkg.com/@morev/helpers/-/helpers-0.19.2.tgz#e8a5d31ca641ef4534d298379efb44f8503e9ae3"
   integrity sha512-uEeNAYpP8Zzaa6JSbdqAK5CrFvW8nlc8Jk5xq6z9N4cVGZ8rl5ectxNl9+wPp/yNjbQoiaZT9A3oH9HBU7KYJQ==
 
-"@morev/stylelint-config@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@morev/stylelint-config/-/stylelint-config-2.0.0.tgz#f484ed5312d0acdf08dfb550e5081b592711df70"
-  integrity sha512-TY03LDK2SKKgOwoNqIa/MICxy6/LPg6B93rcn3Z3NXKqU2y1KmItTYEGhOsx9Duhyfs90eUUklJcTRgLhKEdtA==
+"@morev/stylelint-config@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@morev/stylelint-config/-/stylelint-config-2.2.0.tgz#5cd1fc7bc22a6f23c393f16ac29dd4c822802c5d"
+  integrity sha512-/IK7S5f6Cr4PJ3Ojg1617qyCIUJzIr/uAIYWeuBkDECew7D1PCdzU16LeZAixo4ci+q7123S1EWYS3xOmjyr2Q==
   dependencies:
     lodash.mergewith "^4.6.2"
-    postcss "^8.4.16"
-    postcss-scss "^4.0.4"
-    stylelint-8-point-grid "^2.1.0"
+    postcss "^8.4.19"
+    postcss-scss "^4.0.6"
+    stylelint-8-point-grid "^2.2.0"
     stylelint-at-rule-no-children "^0.3.1"
-    stylelint-declaration-block-no-ignored-properties "^2.5.0"
-    stylelint-high-performance-animation "^1.6.0"
+    stylelint-declaration-block-no-ignored-properties "^2.6.0"
+    stylelint-high-performance-animation "^1.7.0"
     stylelint-no-nested-media "^0.1.0"
     stylelint-order "^5.0.0"
     stylelint-scss "^4.3.0"
@@ -9542,10 +9542,10 @@ postcss-scss@^2.1.1:
   dependencies:
     postcss "^7.0.6"
 
-postcss-scss@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.5.tgz#8ee33c1dda8d9d4753b565ec79014803dc6edabf"
-  integrity sha512-F7xpB6TrXyqUh3GKdyB4Gkp3QL3DDW1+uI+gxx/oJnUt/qXI4trj5OGlp9rOKdoABGULuqtqeG+3HEVQk4DjmA==
+postcss-scss@^4.0.6:
+  version "4.0.6"
+  resolved "https://registry.yarnpkg.com/postcss-scss/-/postcss-scss-4.0.6.tgz#5d62a574b950a6ae12f2aa89b60d63d9e4432bfd"
+  integrity sha512-rLDPhJY4z/i4nVFZ27j9GqLxj1pwxE80eAzUNRMXtcpipFYIeowerzBgG3yJhMtObGEXidtIgbUpQ3eLDsf5OQ==
 
 postcss-selector-matches@^4.0.0:
   version "4.0.0"
@@ -9655,10 +9655,10 @@ postcss@7.x.x, postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17,
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.3.11, postcss@^8.4.14, postcss@^8.4.16:
-  version "8.4.16"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.16.tgz#33a1d675fac39941f5f445db0de4db2b6e01d43c"
-  integrity sha512-ipHE1XBvKzm5xI7hiHCZJCSugxvsdq2mPnsq5+UF+VHCjiBvtDrlxJfMBToWaP9D5XlgNmcFGqoHmUn0EYEaRQ==
+postcss@^8.3.11, postcss@^8.4.14, postcss@^8.4.16, postcss@^8.4.19:
+  version "8.4.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
+  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
@@ -11194,10 +11194,10 @@ stylehacks@^4.0.0:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-stylelint-8-point-grid@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-8-point-grid/-/stylelint-8-point-grid-2.1.0.tgz#1d9a09e1c773dbd7453532add4d22d2a5393f4e8"
-  integrity sha512-8P19ixdL3S4zw6w1vquDaETt9SvdYCw62HyWuA5SeMW90S5ws6jioCS3ZLp71ulSpvgg0k4Kgg7TP5V7opwadQ==
+stylelint-8-point-grid@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-8-point-grid/-/stylelint-8-point-grid-2.2.0.tgz#fb3211f2bb395351346a27f16ab330c2061ae654"
+  integrity sha512-b1E2p+4zhSEg2zpfA3DbH+XyeijjaULc1SgggwNt3C2AhOT9KmEsw6wH0Jun85uz7aJEThKGSR5q25SaoDqvHg==
   dependencies:
     stylelint "^13.3.2"
 
@@ -11206,15 +11206,17 @@ stylelint-at-rule-no-children@^0.3.1:
   resolved "https://registry.yarnpkg.com/stylelint-at-rule-no-children/-/stylelint-at-rule-no-children-0.3.1.tgz#700152f9ddf4c544592e80ffdcb67ff342749e8d"
   integrity sha512-SNXI6r3XSQja4PqKunu1LNzfqTc/qaONnkOW4ey7ONYY3Z4HIgrBF1ctxCITth1az0fRdrUZNixT/NQIROTX1Q==
 
-stylelint-declaration-block-no-ignored-properties@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.5.0.tgz#7cfe61c118ef5aa89f2bfdc2a78aa34bd2dacb87"
-  integrity sha512-UNz5nUC5GMgMb6GPc/pHUTC0+ydxTdj2mUn7XcKRdwQoiUzzUmWWdSf1aFv2UzrW4x8JYNReE1u5JOj7g0ThJw==
+stylelint-declaration-block-no-ignored-properties@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.6.0.tgz#237028415b5bd543341f7d3c57c5903259a9e09c"
+  integrity sha512-S9EC/tVJL19ppMRC4A4ecxtkENHZ7WNrEAukJVDtFt+iZgNP3SmokOLlYUhe6qZuB2XUvETqUx6r2p3Xfo7Rxw==
 
-stylelint-high-performance-animation@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.6.0.tgz#c436726ef611099d2835ecf5c49245236e3c562d"
-  integrity sha512-RW3XbNLMoKcqY97NTNLXzfg4IGzCfaIf+s4aQem7BzN5IYqYLdYuU1WCqMCoiZHRILQIkrkNvcaQOAu7bA9qxw==
+stylelint-high-performance-animation@^1.7.0:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.7.0.tgz#c4b7da56e002d33c24328d6173f05e05f8efb0fe"
+  integrity sha512-Gq3tiCAhHU0WZBVwiCYKk+Kdkf1EeHyzDruRvDL9EhqrkpKxkktIzqmX+RM+Jn7s1sN9iAnoYIXPa0Py6d7j/Q==
+  dependencies:
+    postcss-value-parser "^4.2.0"
 
 stylelint-no-nested-media@^0.1.0:
   version "0.1.0"
