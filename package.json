@@ -128,7 +128,7 @@
 	},
 	"devDependencies": {
 		"@morev/commitlint-config": "^0.1.0",
-		"@morev/eslint-config": "^17.3.1",
+		"@morev/eslint-config": "^21.0.0",
 		"@morev/stylelint-config": "^2.0.0",
 		"@nuxt/types": "^2.15.8",
 		"@release-it/conventional-changelog": "^5.1.0",
