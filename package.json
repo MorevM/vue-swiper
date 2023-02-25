@@ -132,7 +132,7 @@
 		"@morev/stylelint-config": "^2.0.0",
 		"@nuxt/types": "^2.15.8",
 		"@release-it/conventional-changelog": "^5.1.0",
-		"@types/node": "^18.7.23",
+		"@types/node": "^18.14.1",
 		"eslint": "^8.24.0",
 		"husky": "^8.0.1",
 		"lint-staged": "^13.0.3",
