@@ -1,5 +1,12 @@
 
 
+### [0.1.1](https://github.com/MorevM/vue-swiper/compare/v0.1.0...v0.1.1) (2023-09-27)
+
+
+### Chores
+
+* Update Swiper to v9 ([ec198bf](https://github.com/MorevM/vue-swiper/commit/ec198bff8b42d6f91a91798264a97d179ee338c9))
+
 ## [0.1.0](https://github.com/MorevM/vue-swiper/compare/v0.0.3...v0.1.0) (2022-09-27)
 
 
