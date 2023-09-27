@@ -17,7 +17,6 @@ export {
 	HashNavigation,
 	History,
 	Keyboard,
-	Lazy,
 	Manipulation,
 	Mousewheel,
 	Navigation,
