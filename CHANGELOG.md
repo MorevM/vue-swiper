@@ -1,5 +1,16 @@
 
 
+## [1.0.0](https://github.com/MorevM/vue-swiper/compare/v0.1.1...v1.0.0) (2024-01-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* As updated `@morev/helpers` package includes `ohash` dependency, an additional transpile option may be required.
+
+### Chores
+
+* Upgrade `@morev/helpers` package to latest ([ad0e174](https://github.com/MorevM/vue-swiper/commit/ad0e174ec25d8ff730006d66b6a2d5cf384cc8c4))
+
 ### [0.1.1](https://github.com/MorevM/vue-swiper/compare/v0.1.0...v0.1.1) (2023-09-27)
 
 
