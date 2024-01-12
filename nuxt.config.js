@@ -28,14 +28,18 @@ export default {
 	],
 	build: {
 		transpile: [
+			'@morev/helpers',
+			'ohash',
 			({ isLegacy }) => (isLegacy ? 'ssr-window' : undefined),
 			({ isLegacy }) => (isLegacy ? 'swiper' : undefined),
 			({ isLegacy }) => (isLegacy ? 'dom7' : undefined),
 		],
 		postcss: {
-			plugins: {
-				'postcss-discard-duplicates': {},
-				'postcss-discard-comments': {},
+			postcssOptions: {
+				plugins: {
+					'postcss-discard-duplicates': {},
+					'postcss-discard-comments': {},
+				},
 			},
 			preset: {
 				stage: 1,
