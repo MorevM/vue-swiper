@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/require-typed-object-prop -->
 <script>
 	/* eslint-disable vue/no-unused-properties, no-autofix/vue/no-boolean-default, vue/no-boolean-default */
 
@@ -129,25 +130,24 @@
 			zoom: { type: [Boolean, Object], default: undefined },
 			grid: { type: [Object], default: undefined },
 			freeMode: { type: [Boolean, Object], default: undefined },
-
 			// Custom props
 			lazyInit: { type: [Boolean, Object], default: false },
 			disabled: { type: Boolean, default: false },
 			bemBlock: { type: String, default: undefined },
 			emitStyle: { type: String, default: 'camelCase' }, // kebab-case
-
+			//
 			rootTag: { type: String, default: 'div' },
 			rootClass: { type: String, default: 'swiper-root' },
-
+			//
 			navigationWrap: { type: Boolean, default: false },
 			navigationOutside: { type: Boolean, default: false },
-
+			//
 			paginationWrap: { type: Boolean, default: false },
 			paginationOutside: { type: Boolean, default: false },
-
+			//
 			scrollbarWrap: { type: Boolean, default: false },
 			scrollbarOutside: { type: Boolean, default: false },
-
+			//
 			childrenKey: { type: Function, default: undefined },
 		},
 		emits: [
@@ -258,6 +258,7 @@
 				// Skip text and comment nodes
 				return this.slides.filter(slide => slide.tag);
 			},
+
 			cRootClasses() {
 				const extraClasses = this.containerClasses.split(' ').filter(i => i !== 'swiper');
 				return arrayUnique([this._withBem(this.rootClass), ...extraClasses]).join(' ');
