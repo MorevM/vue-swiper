@@ -3,7 +3,7 @@
 	/* eslint-disable vue/no-unused-properties, no-autofix/vue/no-boolean-default, vue/no-boolean-default */
 
 	import Swiper from 'swiper';
-	import { camelCase, kebabCase, isFunction, arrayUnique } from '@morev/helpers';
+	import { camelCase, kebabCase, isFunction, arrayUnique, isEmpty } from '@morev/helpers';
 	import { getParams } from './get-params.js';
 	import { updateSwiper } from './update-swiper.js';
 	import { getChangedParams } from './get-changed-params.js';
@@ -255,6 +255,7 @@
 		}),
 		computed: {
 			cleanSlides() {
+				if (isEmpty(this.slides)) return [];
 				// Skip text and comment nodes
 				return this.slides.filter(slide => slide.tag);
 			},
