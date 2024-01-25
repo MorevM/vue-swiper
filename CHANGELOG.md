@@ -1,5 +1,12 @@
 
 
+### [1.0.1](https://github.com/MorevM/vue-swiper/compare/v1.0.0...v1.0.1) (2024-01-25)
+
+
+### Bug fixes
+
+* Check slides for existing ([2a09db2](https://github.com/MorevM/vue-swiper/commit/2a09db2264fe990ffb9d146b144f9c18ad26c0a0))
+
 ## [1.0.0](https://github.com/MorevM/vue-swiper/compare/v0.1.1...v1.0.0) (2024-01-12)
 
 
