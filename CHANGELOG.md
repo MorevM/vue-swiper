@@ -1,5 +1,12 @@
 
 
+### [1.0.2](https://github.com/MorevM/vue-swiper/compare/v1.0.1...v1.0.2) (2024-03-18)
+
+
+### Bug fixes
+
+* Allow `childrenKey` to be a falsy value (`0` for instance) ([1ef2a18](https://github.com/MorevM/vue-swiper/commit/1ef2a187d19245426422d79cbf3bb3f25f86d6c5))
+
 ### [1.0.1](https://github.com/MorevM/vue-swiper/compare/v1.0.0...v1.0.1) (2024-01-25)
 
 
