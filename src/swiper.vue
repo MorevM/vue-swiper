@@ -542,7 +542,7 @@
 
 			if (this.childrenKey && isFunction(this.childrenKey)) {
 				const key = this.childrenKey(this.prevChildrenKey);
-				if (key) {
+				if (key !== false && key !== null) {
 					this.prevChildrenKey = key;
 					changedParams.push('children');
 				}
