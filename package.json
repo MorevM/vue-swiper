@@ -3,6 +3,7 @@
 	"description": "Latest Swiper with extra features. For Vue 2 + SSR",
 	"version": "1.0.2",
 	"private": false,
+	"sideEffects": false,
 	"engines": {
 		"node": ">=20"
 	},
