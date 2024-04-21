@@ -1,4 +1,4 @@
-import { isObject, arrayUnique } from '@morev/helpers';
+import { isObject, arrayUnique } from '@morev/utils';
 
 export const cloneVNode = (vnode, h) => {
 	const clonedChildren = (vnode.children || []).map(n => cloneVNode(n));
@@ -15,7 +15,7 @@ export const cloneVNode = (vnode, h) => {
 };
 
 export const setProps = (node, props) => {
-	node.componentOptions.propsData = node.componentOptions.propsData || {};
+	node.componentOptions.propsData ||= {};
 	Object.entries(props).forEach(([key, value]) => {
 		node.componentOptions.propsData[key] = value;
 	});

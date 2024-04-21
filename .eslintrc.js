@@ -4,6 +4,7 @@ module.exports = {
 		'@morev/eslint-config/preset/common',
 		'@morev/eslint-config/preset/vue2',
 		'@morev/eslint-config/node',
+		'@morev/eslint-config/browser',
 	],
 	rules: {
 		'import/no-named-as-default': 'off', // Swiper used it

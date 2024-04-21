@@ -3,7 +3,7 @@
 	/* eslint-disable vue/no-unused-properties, no-autofix/vue/no-boolean-default, vue/no-boolean-default */
 
 	import Swiper from 'swiper';
-	import { camelCase, kebabCase, isFunction, arrayUnique, isEmpty } from '@morev/helpers';
+	import { camelCase, kebabCase, isFunction, arrayUnique, isEmpty } from '@morev/utils';
 	import { getParams } from './get-params.js';
 	import { updateSwiper } from './update-swiper.js';
 	import { getChangedParams } from './get-changed-params.js';
@@ -150,6 +150,8 @@
 			//
 			childrenKey: { type: Function, default: undefined },
 		},
+
+		/* eslint-disable vue/no-unused-emit-declarations -- Kinda public API */
 		emits: [
 			'_beforeBreakpoint',
 			'_containerClasses',
@@ -235,6 +237,7 @@
 			'update',
 			'zoomChange',
 		],
+		/* eslint-enable vue/no-unused-emit-declarations -- Kinda public API */
 		data: () => ({
 			swiper: null,
 			isMounted: false,

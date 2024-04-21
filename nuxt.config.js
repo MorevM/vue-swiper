@@ -28,12 +28,15 @@ export default {
 	],
 	build: {
 		transpile: [
-			'@morev/helpers',
+			'@morev/utils',
 			'ohash',
 			({ isLegacy }) => (isLegacy ? 'ssr-window' : undefined),
 			({ isLegacy }) => (isLegacy ? 'swiper' : undefined),
 			({ isLegacy }) => (isLegacy ? 'dom7' : undefined),
 		],
+		babel: {
+			plugins: ['@babel/plugin-transform-logical-assignment-operators'],
+		},
 		postcss: {
 			postcssOptions: {
 				plugins: {

@@ -1,4 +1,4 @@
-import { isObject } from '@morev/helpers';
+import { isObject } from '@morev/utils';
 import { extend } from './utils.js';
 
 export const updateSwiper = ({

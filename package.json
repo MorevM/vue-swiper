@@ -126,7 +126,7 @@
 		"test": "echo TODO;"
 	},
 	"dependencies": {
-		"@morev/helpers": "^1.19.2",
+		"@morev/utils": "^3.9.0",
 		"swiper": "9.4.1"
 	},
 	"devDependencies": {

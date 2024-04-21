@@ -1,4 +1,4 @@
-import { isEmpty, isObject } from '@morev/helpers';
+import { isEmpty, isObject } from '@morev/utils';
 import { paramsList } from './params-list.js';
 
 const getChangedParams = (swiperParams, oldParams, children, oldChildren) => {

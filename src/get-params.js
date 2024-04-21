@@ -1,5 +1,5 @@
 import Swiper from 'swiper';
-import { isObject } from '@morev/helpers';
+import { isObject } from '@morev/utils';
 import { extend } from './utils.js';
 import { paramsList } from './params-list.js';
 
