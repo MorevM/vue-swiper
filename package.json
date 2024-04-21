@@ -112,7 +112,6 @@
 		"build": "node ./scripts/prepublish.mjs",
 		"prepare": "lefthook install && yarn more-sass-clone",
 		"more-sass-clone": "rm -rf .more-sass && cp -r ./node_modules/more-sass ./.more-sass",
-		"vscode-settings": "cp .vscode/settings.template.json .vscode/settings.json",
 		"release": "release-it --disable-metrics",
 		"lint": "yarn lint:eslint && yarn lint:stylelint",
 		"lint:fix": "yarn lint:eslint:fix && yarn lint:stylelint:fix",

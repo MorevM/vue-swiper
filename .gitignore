@@ -11,9 +11,6 @@ build
 *.sln
 *.sw*
 
-.vscode/*
-!.vscode/settings.template.json
-
 # Dependencies
 node_modules
 
