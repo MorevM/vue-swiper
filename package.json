@@ -3,6 +3,9 @@
 	"description": "Latest Swiper with extra features. For Vue 2 + SSR",
 	"version": "1.0.2",
 	"private": false,
+	"engines": {
+		"node": ">=20"
+	},
 	"license": "MIT",
 	"publishConfig": {
 		"access": "public",
@@ -126,23 +129,23 @@
 		"swiper": "9.4.1"
 	},
 	"devDependencies": {
-		"@morev/commitlint-config": "^0.1.0",
-		"@morev/eslint-config": "^24.0.0",
-		"@morev/stylelint-config": "^2.0.0",
-		"@nuxt/types": "^2.15.8",
-		"@release-it/conventional-changelog": "^5.1.0",
-		"@types/node": "^18.7.23",
-		"eslint": "^8.24.0",
+		"@morev/commitlint-config": "^0.2.2",
+		"@morev/eslint-config": "^31.1.0",
+		"@morev/stylelint-config": "^5.4.1",
+		"@nuxt/types": "^2.17.3",
+		"@release-it/conventional-changelog": "^8.0.1",
+		"@types/node": "^20.12.7",
+		"eslint": "8.57.0",
 		"lefthook": "^1.6.10",
 		"more-sass": "^1.0.5",
 		"nuxt": "^2.15.8",
 		"postcss-discard-comments": "^4.0.2",
 		"postcss-discard-duplicates": "^4.0.2",
 		"recursive-copy": "^2.0.14",
-		"release-it": "^15.4.2",
-		"sass": "^1.55.0",
+		"release-it": "^17.2.0",
+		"sass": "^1.75.0",
 		"sass-loader": "^10.1.1",
-		"stylelint": "^14.12.1",
+		"stylelint": "^16.3.1",
 		"vue": "^2.6.14"
 	}
 }
