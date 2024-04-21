@@ -110,7 +110,7 @@
 	"scripts": {
 		"dev": "nuxt",
 		"build": "node ./scripts/prepublish.mjs",
-		"prepare": "husky install ./.husky && yarn more-sass-clone",
+		"prepare": "lefthook install && yarn more-sass-clone",
 		"more-sass-clone": "rm -rf .more-sass && cp -r ./node_modules/more-sass ./.more-sass",
 		"vscode-settings": "cp .vscode/settings.template.json .vscode/settings.json",
 		"release": "release-it --disable-metrics",
@@ -134,8 +134,7 @@
 		"@release-it/conventional-changelog": "^5.1.0",
 		"@types/node": "^18.7.23",
 		"eslint": "^8.24.0",
-		"husky": "^8.0.1",
-		"lint-staged": "^13.0.3",
+		"lefthook": "^1.6.10",
 		"more-sass": "^1.0.5",
 		"nuxt": "^2.15.8",
 		"postcss-discard-comments": "^4.0.2",
