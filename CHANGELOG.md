@@ -1,5 +1,27 @@
 
 
+## [2.0.0](https://github.com/MorevM/vue-swiper/compare/v1.0.2...v2.0.0) (2024-04-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* Minimal required Node version is 20 now
+
+### Chores
+
+* Deps update ([7f5a169](https://github.com/MorevM/vue-swiper/commit/7f5a169d4cf7eb479c6d5a3a144fc7446d29579e))
+* Mark the package as side-effects free ([aa96425](https://github.com/MorevM/vue-swiper/commit/aa96425b08f107b78faeae6d371f8c32c691caea))
+
+
+### Refactoring
+
+* Replace legacy `@morev/helpers` with `@morev/utils` ([e0eb237](https://github.com/MorevM/vue-swiper/commit/e0eb23702a07942ab9f99c9aa8e082603f8bd9dd))
+
+
+### CI improvements
+
+* Run actions with Node 20 ([15c67a8](https://github.com/MorevM/vue-swiper/commit/15c67a8e9361630b4762b00e39789828af0f807b))
+
 ### [1.0.2](https://github.com/MorevM/vue-swiper/compare/v1.0.1...v1.0.2) (2024-03-18)
 
 
